@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'open sans', sans-serif;
+}
+
+:root{
+    --warna-satu:#ffff;
+    --warna-dua:#778da9;
+    --warna-tiga:#415a77;
+    --warna-empat:#1b263b;
+    --warna-lima:#0d1b2a;
+    --warna-enam: #fca311;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+img{
+    width: 100%;
+
+}
+
+.section-content{
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 500px;
+}
+
+header{
+    background: var(--warna-lima) ;
+}
+
+header .navbar{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .nav-logo .logo-text{
+    color: var(--warna-satu);
+}
+
+.navbar .nav-menu{
+    display: flex;
+    gap: 20px;
+}
+
+.navbar .nav-menu .nav-link{
+    color: var(--warna-satu);
+    background: var(--warna-lima);
+    padding: 10px 18px;
+    border-radius: 30px;
+    font-size:small;
+    transition: 0.3s;
+}
+
+.navbar .nav-menu .nav-link:hover{
+    color: var(--warna-satu);
+    background: var(--warna-enam);
+}
